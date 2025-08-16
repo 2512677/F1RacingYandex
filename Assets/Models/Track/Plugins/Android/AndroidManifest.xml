@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mycompany.myapp">
+
+  <!-- Удаляем неиспользуемое разрешение -->
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove"/>
+
+  <!-- Разрешение для чтения внешнего хранилища -->
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+  <!-- Разрешение для записи во внешнее хранилище (для Android 9 и ниже) -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28"/>
+
+  <application>
+    <activity android:name="com.unity3d.player.UnityPlayerActivity"
+              android:theme="@style/UnityThemeSelector"
+              android:launchMode="singleTask"
+              android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize"
+              android:excludeFromRecents="true"
+              android:screenOrientation="landscape">
+
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+    </activity>
+  </application>
+</manifest>

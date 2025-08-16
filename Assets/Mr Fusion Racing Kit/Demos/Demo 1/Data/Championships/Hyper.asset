@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3826b8f4f739a2344855c8d4023ac6d3, type: 3}
+  m_Name: Hyper
+  m_EditorClassIdentifier: 
+  championshipID: Hyper
+  championshipName: Hyper
+  reward: 500.000
+  carName: Venom GT
+  championshipImage: {fileID: 21300000, guid: 9578063acdee4dd4db522a629d69e939, type: 3}
+  raceTypeIcon: {fileID: 0}
+  championshipIcon: {fileID: 21300000, guid: f96120b88b2cdc744a0887f1456f750a, type: 3}
+  championshipRounds:
+  - championshipID: Hyper0
+    trackData: {fileID: 11400000, guid: 26b6dc4d61efb594bb657639b10236f8, type: 2}
+    raceType: 0
+    laps: 3
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 0
+    enableCatchup: 1
+    catchupStrength: 0.489
+    minCatchupRange: 10
+    maxCatchupRange: 100
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 5.6
+      minSlipstreamSpeed: 100
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 1
+    wrongwayRespawnTime: 5
+    aidifficult: 1
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 300
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 0
+    targetScoreSilver: 0
+    targetScoreBronze: 0
+  - championshipID: Hyper1
+    trackData: {fileID: 11400000, guid: a8fef1d73eefe864fa660f563ae28884, type: 2}
+    raceType: 2
+    laps: 4
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 0
+    enableCatchup: 1
+    catchupStrength: 0.65
+    minCatchupRange: 10
+    maxCatchupRange: 100
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 1.1
+      minSlipstreamSpeed: 100
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 1
+    wrongwayRespawnTime: 5
+    aidifficult: 2
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 300
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 0
+    targetScoreSilver: 0
+    targetScoreBronze: 0
+  - championshipID: Hyper2
+    trackData: {fileID: 11400000, guid: 347cd787e58d15a41930b2e3cb8ca538, type: 2}
+    raceType: 8
+    laps: 4
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 0
+    enableCatchup: 1
+    catchupStrength: 0.697
+    minCatchupRange: 10
+    maxCatchupRange: 100
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 1.1
+      minSlipstreamSpeed: 100
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 1
+    wrongwayRespawnTime: 5
+    aidifficult: 2
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 140
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 0
+    targetScoreSilver: 0
+    targetScoreBronze: 0
+  - championshipID: Hyper3
+    trackData: {fileID: 11400000, guid: 4ee273787035e8840b68432c29a1f51c, type: 2}
+    raceType: 4
+    laps: 1
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 0
+    enableCatchup: 1
+    catchupStrength: 0.638
+    minCatchupRange: 10
+    maxCatchupRange: 100
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 1.1
+      minSlipstreamSpeed: 100
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 1
+    wrongwayRespawnTime: 5
+    aidifficult: 2
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 300
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 0
+    targetScoreSilver: 0
+    targetScoreBronze: 0
+  championshipRacers:
+  - vehicle: {fileID: 7636518798493571302, guid: de37f86cab8fcce4c87ace1d3b9ab7b0, type: 3}
+    name: Matthew
+    nationality: 187
+    isPlayer: 0
+  - vehicle: {fileID: 7564328201180984814, guid: 83205b81e827b1c4cbf79e0c9a5dbe91, type: 3}
+    name: Daniel
+    nationality: 187
+    isPlayer: 0
+  - vehicle: {fileID: 4717255621767622984, guid: 7f9f3cdd54d90c44c99212529f42b596, type: 3}
+    name: Heinrich
+    nationality: 64
+    isPlayer: 0
+  - vehicle: {fileID: 2859849178184132871, guid: 475e8f438eeb2b341b311c02d8eb3937, type: 3}
+    name: "Fran\xE7ois"
+    nationality: 60
+    isPlayer: 0
+  championshipPoints: 0a00000008000000060000000400000002000000
+  requiredCarClass: 4
+  raceRewards:
+  - currency: 500000
+    xp: 150
+    speedBoost: 200
+    items:
+    - 2011_venom_gt
+  - currency: 350000
+    xp: 120
+    speedBoost: 160
+    items: []
+  - currency: 200000
+    xp: 100
+    speedBoost: 140
+    items: []
+  requireBehaviorType: 1
+  requiredBehaviorType: 2

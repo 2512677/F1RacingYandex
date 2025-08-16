@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62224963b571884ebe6f24785c11b8b, type: 3}
+  m_Name: WheelFrcitionCurveData
+  m_EditorClassIdentifier: Assembly-CSharp:RGSK:WheelFrictionCurveData
+  wheelFrictionCurves:
+  - name: Grip
+    id: 0
+    appliedRaceTypes: 
+    forwardExtremumSlip: 2
+    forwardExtremumValue: 5
+    forwardAsymptoteSlip: 1
+    forwardAsymptoteValue: 0.5
+    sidewaysExtremumSlip: 0.2
+    sidewaysExtremumValue: 1
+    sidewaysAsymptoteSlip: 1
+    sidewaysAsymptoteValue: 0.75
+  - name: Drift
+    id: 1
+    appliedRaceTypes: 09000000
+    forwardExtremumSlip: 1
+    forwardExtremumValue: 2
+    forwardAsymptoteSlip: 1
+    forwardAsymptoteValue: 0.5
+    sidewaysExtremumSlip: 0.3
+    sidewaysExtremumValue: 1
+    sidewaysAsymptoteSlip: 0.5
+    sidewaysAsymptoteValue: 0.75
+  - name: Motorbike
+    id: 2
+    appliedRaceTypes: 09000000
+    forwardExtremumSlip: 0.5
+    forwardExtremumValue: 1
+    forwardAsymptoteSlip: 1.5
+    forwardAsymptoteValue: 0.2
+    sidewaysExtremumSlip: 0.1
+    sidewaysExtremumValue: 1
+    sidewaysAsymptoteSlip: 0.1
+    sidewaysAsymptoteValue: 0.8

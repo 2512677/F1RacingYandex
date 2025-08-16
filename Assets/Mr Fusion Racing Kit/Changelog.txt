@@ -1,0 +1,56 @@
+v2.0 BETA (WIP)
+
+---Race System---
+- Added Championships
+- Added Endurance, Point To Point, Time Attack and Drag race types
+- Added split times
+- Added catchup (Rubber-banding)
+- Added DNF timer
+- Added no collision race option
+- Added time/distance gaps to UI display
+- Added UI progress bar supporting both horizontal and vertical layouts
+- Added scriptable objects to store AI difficulty
+- Added racer nationality
+- Added advanced replay options
+- Added replay optimization options
+- Ghost vehicle only instantiated once
+- Track Editor
+- Track surface supports skidmarks for each surface
+- Track surface handles collision effects for each surface
+- Racer names now use world screen canvas rather than TextMesh
+- Race triggers now use enum rather than tags to identify themselves
+- Improved AI optimization
+- New input manager
+- Scene controller
+- Seperate script for each UI panel
+- Optimized UI code
+
+
+---Workflow---
+- Track Editor menu item
+- Race Components menu item
+- Template UI menu items to easily create UI
+- Vehicle Setup Wizard automatically sets wheel collider radius
+- Vehicle Setup Wizard autonatically sets vehicle collider size
+- Vehicle Setup Wizard vehicle type presets
+
+
+---Vehicle Physics---
+- Completely new vehicle physics
+- Improved IK driver
+- Support for IK bike rider
+
+
+---Misc---
+- Camera shake settings
+- Race intro camera option
+- Post race music
+- Race message configuration
+- C# events
+- Player XP system
+- Rear view mirror UI
+- Mesh flicker respawn
+- Simple day/night system
+- Minimap rendered using RenderTexture
+- AudioMixer groups for controlling audio volumes
+- Ability to switch camera target

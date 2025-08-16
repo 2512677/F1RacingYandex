@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2390353fefb1304ebe448bf177a06cc, type: 3}
+  m_Name: Day 7
+  m_EditorClassIdentifier: 
+  careerName: Day7
+  stageName: Day7
+  championshipData: {fileID: 0}
+  careerRounds:
+  - requireCarClass: 0
+    requiredCarClass: 0
+    trackData: {fileID: 11400000, guid: 347cd787e58d15a41930b2e3cb8ca538, type: 2}
+    raceType: 2
+    laps: 2
+    opponentCount: 3
+    raceID: Day7
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 0
+    enableCatchup: 1
+    catchupStrength: 1
+    minCatchupRange: 50
+    maxCatchupRange: 200
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 5.48
+      minSlipstreamSpeed: 100
+    respawnSettings:
+      enableRespawns: 1
+      autoRespawn: 0
+      meshFlicker: 0
+      ignoreCollisionDuration: 3
+      respawnWait: 5
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 1
+    wrongwayRespawnTime: 3
+    aidifficult: 2
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 300
+    driftTimeStart: 120
+    targetTimeGold: 80
+    targetTimeSilver: 60
+    targetTimeBronze: 50
+    targetScoreGold: 500
+    targetScoreSilver: 30
+    targetScoreBronze: 49
+    raceRewards:
+    - currency: 120000
+      xp: 0
+      speedBoost: 0
+      items: []

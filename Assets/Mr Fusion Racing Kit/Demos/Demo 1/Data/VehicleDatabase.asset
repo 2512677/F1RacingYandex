@@ -1,0 +1,1532 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6884fd53887598e4fba39c6c72dcfefb, type: 3}
+  m_Name: VehicleDatabase
+  m_EditorClassIdentifier: 
+  vehicles:
+  - ModelName: Club GTi
+    BrandName: Holzwagen
+    CarClassNames: Cop
+    previewSprite: {fileID: 21300000, guid: 7ddc3eacdec09f54099899b7367ac76c, type: 3}
+    CarClass: 5
+    uniqueID: golfcop
+    vehicle: {fileID: 3737676997844232238, guid: 7f1c34a785a09314eb2e122a21317b58, type: 3}
+    aiVehicle: {fileID: 8881374558758804318, guid: cf870cf2802925447a34536f9ef2b68a, type: 3}
+    menuVehicle: {fileID: 1368538800191655480, guid: 86cefa27448296b4e89e67b14a24b277, type: 3}
+    topSpeed: 0.233
+    acceleration: 0.244
+    handling: 0.204
+    braking: 0.27
+    bodyMaterials:
+    - {fileID: 2100000, guid: 37e4324ac76153347a0d992fd0d7d6a0, type: 2}
+    mass: 1350
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 300
+    isPaintable: 0
+    stockColor: {r: 0.5773585, g: 0.5773585, b: 0.5773585, a: 1}
+  - ModelName: Club GTi
+    BrandName: Holzwagen
+    CarClassNames: Hatchback
+    previewSprite: {fileID: 21300000, guid: 7ddc3eacdec09f54099899b7367ac76c, type: 3}
+    CarClass: 5
+    uniqueID: golf
+    vehicle: {fileID: 7879911479289035421, guid: 654fc129d4d74df498149e7a1d894638, type: 3}
+    aiVehicle: {fileID: 8881374558758804318, guid: cf870cf2802925447a34536f9ef2b68a, type: 3}
+    menuVehicle: {fileID: 7624464183855341320, guid: 608744ca14294e54a8bfbc65618783b4, type: 3}
+    topSpeed: 0.233
+    acceleration: 0.244
+    handling: 0.204
+    braking: 0.27
+    bodyMaterials:
+    - {fileID: 2100000, guid: 37e4324ac76153347a0d992fd0d7d6a0, type: 2}
+    mass: 1350
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 500
+    isPaintable: 1
+    stockColor: {r: 0.5773585, g: 0.5773585, b: 0.5773585, a: 1}
+  - ModelName: Bumble
+    BrandName: VM
+    CarClassNames: Hatchback
+    previewSprite: {fileID: 21300000, guid: d9498ae0d8ec4b542921a08daf146a0b, type: 3}
+    CarClass: 5
+    uniqueID: bumble
+    vehicle: {fileID: 2560315977608962448, guid: a7e11cb44221fb54e8d87ce9286ca51e, type: 3}
+    aiVehicle: {fileID: 2702092714326099588, guid: a0be8fe13b11a004fa7edc361192e17d, type: 3}
+    menuVehicle: {fileID: 2118748972439160396, guid: 0b37eeb0d20921547b3371b11152d12b, type: 3}
+    topSpeed: 0.235
+    acceleration: 0.191
+    handling: 0.256
+    braking: 0.3
+    bodyMaterials:
+    - {fileID: 2100000, guid: 80ac30d47c6f6d143acfc2ca9118ef95, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 40000
+    isPaintable: 1
+    stockColor: {r: 1, g: 0.8437842, b: 0, a: 1}
+  - ModelName: Civic
+    BrandName: Orient
+    CarClassNames: Hatchback
+    previewSprite: {fileID: 21300000, guid: 054d2e9fe6d3e77479f8d253afd5db97, type: 3}
+    CarClass: 5
+    uniqueID: civicr
+    vehicle: {fileID: 905979267764093380, guid: bcec5408363f4894d9d90e740f5963ff, type: 3}
+    aiVehicle: {fileID: 3017494637387817235, guid: 80d43dec5dff7e9409f22aadaca83eae, type: 3}
+    menuVehicle: {fileID: 7864920262637278688, guid: 65613d7e4b528534aac854a5bbab0db4, type: 3}
+    topSpeed: 0.177
+    acceleration: 0.249
+    handling: 0.195
+    braking: 0.27
+    bodyMaterials:
+    - {fileID: 2100000, guid: 9c506f94b4ae5ef4f817e93001da6613, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 55000
+    isPaintable: 1
+    stockColor: {r: 0.5773585, g: 0.08702954, b: 0, a: 1}
+  - ModelName: Copper GB
+    BrandName: Weeny
+    CarClassNames: Hatchback
+    previewSprite: {fileID: 21300000, guid: a20d0cd37fdc2f8418812a301d7cf1a1, type: 3}
+    CarClass: 5
+    uniqueID: Weeny
+    vehicle: {fileID: 5152365592058002414, guid: 2eeed9c5c1a415c4897db3c135f6e61b, type: 3}
+    aiVehicle: {fileID: 2015555944747650584, guid: d93216fbc9714134590c86f739ca4262, type: 3}
+    menuVehicle: {fileID: 390085014431868336, guid: c98193a905d89a54885c0e525cfe90ec, type: 3}
+    topSpeed: 0.157
+    acceleration: 0.218
+    handling: 0.266
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: c9eb14fef515a714087d07613c7c83b3, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 60000
+    isPaintable: 1
+    stockColor: {r: 0.3509434, g: 0.3509434, b: 0.3509434, a: 1}
+  - ModelName: Hachiroku
+    BrandName: Kodai
+    CarClassNames: Hatchback
+    previewSprite: {fileID: 21300000, guid: 51f0a61090eae7146907a10d186768a7, type: 3}
+    CarClass: 5
+    uniqueID: ae86
+    vehicle: {fileID: 2415120517730059037, guid: a59893d53a4cfa94bbecfa487ffeae01, type: 3}
+    aiVehicle: {fileID: 8927771053225006539, guid: a6593745f59db3b41843534105cd0170, type: 3}
+    menuVehicle: {fileID: 2512259574059862688, guid: 3aa37c0111b115b48afe3c397e4e40d5, type: 3}
+    topSpeed: 0.283
+    acceleration: 0.27
+    handling: 0.341
+    braking: 0.324
+    bodyMaterials: []
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 70000
+    isPaintable: 1
+    stockColor: {r: 1, g: 1, b: 1, a: 1}
+  - ModelName: Morgan RS
+    BrandName: Renvo
+    CarClassNames: Hatchback
+    previewSprite: {fileID: 21300000, guid: 7ed433d7f2eac8346981fd19a6f96dc9, type: 3}
+    CarClass: 5
+    uniqueID: megane_rs
+    vehicle: {fileID: 5763889317952606367, guid: 26da4ee6428aa984db6717529a40c94f, type: 3}
+    aiVehicle: {fileID: 6023188500963115238, guid: f1740e162624ff14b8bcdafc3edc5882, type: 3}
+    menuVehicle: {fileID: 9216739796543116789, guid: a9c5dfa108906ca4dac62e7f0c330747, type: 3}
+    topSpeed: 0.215
+    acceleration: 0.191
+    handling: 0.139
+    braking: 0.253
+    bodyMaterials:
+    - {fileID: 2100000, guid: 4304eb05d4a5f0c4bbf438eb0c461f96, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 100000
+    isPaintable: 1
+    stockColor: {r: 0.6301887, g: 0.6301887, b: 0.6301887, a: 1}
+  - ModelName: E 30  Coupe
+    BrandName: UDM
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: 1591bbf3ad239ea4c99e150c7075864c, type: 3}
+    CarClass: 1
+    uniqueID: e30
+    vehicle: {fileID: 1455308732423420214, guid: 8d0c57ff75dfb5c438feb90b31472122, type: 3}
+    aiVehicle: {fileID: 2830055819312465736, guid: 065a79a46392a2144a9c039e9eb183f5, type: 3}
+    menuVehicle: {fileID: 354870083969129639, guid: 16f3bd6da9b70a249991daee3a9c20c5, type: 3}
+    topSpeed: 0.216
+    acceleration: 0.154
+    handling: 0.253
+    braking: 0.215
+    bodyMaterials:
+    - {fileID: 2100000, guid: 084dd01edde53cd4593a3c3147491061, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 80000
+    isPaintable: 1
+    stockColor: {r: 0.5018867, g: 0.5018867, b: 0.5018867, a: 1}
+  - ModelName: 3S Coupe
+    BrandName: UDM
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: 455bf248317a7534c9994a0e3db17347, type: 3}
+    CarClass: 1
+    uniqueID: e36
+    vehicle: {fileID: 4862466465316414721, guid: 3b8852b1dcad92c46bb6dc2059407313, type: 3}
+    aiVehicle: {fileID: 5637217034868309416, guid: 5717c60985cd00e45a91bfcd6ed66fbc, type: 3}
+    menuVehicle: {fileID: 7219007672395595672, guid: 5906e896fcfac12458c95bb36065319b, type: 3}
+    topSpeed: 0.338
+    acceleration: 0.276
+    handling: 0.3
+    braking: 0.215
+    bodyMaterials:
+    - {fileID: 2100000, guid: a011329d5ea46ea4d93a8bb0e0ddbed2, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 110000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0, b: 0, a: 1}
+  - ModelName: DTM-12
+    BrandName: Outatime
+    CarClassNames: Hatchback
+    previewSprite: {fileID: 21300000, guid: 4b542f394e0951043ae78eaa0730a3c7, type: 3}
+    CarClass: 1
+    uniqueID: DTM-121
+    vehicle: {fileID: 2844983451798448416, guid: cd6d3a3cb42b26b4c82c780e0818b5aa, type: 3}
+    aiVehicle: {fileID: 1370432103985060130, guid: 634658d2b203b8d4685bc0ff4a4ac704, type: 3}
+    menuVehicle: {fileID: 5118026573109574071, guid: b863ba39d51f80b4b8c14dbf4d087291, type: 3}
+    topSpeed: 0.317
+    acceleration: 0.369
+    handling: 0.457
+    braking: 0.273
+    bodyMaterials:
+    - {fileID: 2100000, guid: 0f85ea6f50875da4a81f78666e6ee0bc, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 120000
+    isPaintable: 1
+    stockColor: {r: 0.5169811, g: 0.5169811, b: 0.5169811, a: 1}
+  - ModelName: Kazda
+    BrandName: RS 7
+    CarClassNames: Drift
+    previewSprite: {fileID: 21300000, guid: 08bc7a62b77c4d146ad9c75ef087010d, type: 3}
+    CarClass: 6
+    uniqueID: mazdarxdrift
+    vehicle: {fileID: 3791644642058749702, guid: 55fa3c70ee1ccec4bae9baafab08f14e, type: 3}
+    aiVehicle: {fileID: 3791644642058749702, guid: 55fa3c70ee1ccec4bae9baafab08f14e, type: 3}
+    menuVehicle: {fileID: 905919006746684522, guid: 1c8a424dafc3e474a8a7992e5251bbee, type: 3}
+    topSpeed: 0.392
+    acceleration: 0.314
+    handling: 0.263
+    braking: 0.331
+    bodyMaterials:
+    - {fileID: 2100000, guid: 9827ca0044169594c8ff21d5b3492e73, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 110000
+    isPaintable: 1
+    stockColor: {r: 0.08885835, g: 0.6981132, b: 0.019757802, a: 1}
+  - ModelName: 86 S
+    BrandName: Ubaro
+    CarClassNames: Drift
+    previewSprite: {fileID: 21300000, guid: 580df5aa2cd059043af271b753d11510, type: 3}
+    CarClass: 6
+    uniqueID: 86 SDrift
+    vehicle: {fileID: 4938474697244288937, guid: d79c005ab3b091247b87399c97851f5d, type: 3}
+    aiVehicle: {fileID: 4287792327658158505, guid: 2d54f0c1160efb54095f4b727a0dbc66, type: 3}
+    menuVehicle: {fileID: 1021901603768664226, guid: a37ae7c56fdd805459f023f294738bf1, type: 3}
+    topSpeed: 0.314
+    acceleration: 0.328
+    handling: 0.396
+    braking: 0.297
+    bodyMaterials:
+    - {fileID: 2100000, guid: 4d88b42c7b9214540bd7dae76623174c, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 140000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.37341022, b: 0.79607844, a: 1}
+  - ModelName: NA-5
+    BrandName: Zazda
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: e8ee07a02a10e114697cfa5104d3cf94, type: 3}
+    CarClass: 1
+    uniqueID: NA-5
+    vehicle: {fileID: 2904603526459330573, guid: 1da5de19a0cb2c44faa56afdae72282a, type: 3}
+    aiVehicle: {fileID: 8860809225609699807, guid: 76a048075b50ee14b9ac0a1f49101572, type: 3}
+    menuVehicle: {fileID: 1407373604644201482, guid: e696144dfe5def94e99c14a31ae86d9d, type: 3}
+    topSpeed: 0.321
+    acceleration: 0.413
+    handling: 0.427
+    braking: 0.27
+    bodyMaterials:
+    - {fileID: 2100000, guid: 0f85ea6f50875da4a81f78666e6ee0bc, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 140000
+    isPaintable: 1
+    stockColor: {r: 0.4490565, g: 0, b: 0, a: 1}
+  - ModelName: Horizon R 15
+    BrandName: Annis
+    CarClassNames: Drift
+    previewSprite: {fileID: 21300000, guid: 404e5c828fead774dbdf1a767157e51a, type: 3}
+    CarClass: 6
+    uniqueID: r15
+    vehicle: {fileID: 7991195154594963885, guid: c265b81bb8a911e4ea6bdd622c2680a2, type: 3}
+    aiVehicle: {fileID: 7991195154594963885, guid: c265b81bb8a911e4ea6bdd622c2680a2, type: 3}
+    menuVehicle: {fileID: 4781874945066937465, guid: f365742c2eb83a640943c826c577ecfc, type: 3}
+    topSpeed: 0.334
+    acceleration: 0.328
+    handling: 0.266
+    braking: 0.334
+    bodyMaterials:
+    - {fileID: 2100000, guid: b321bdc50c5a5d142b279124b73c4d18, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 155000
+    isPaintable: 1
+    stockColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+  - ModelName: Jester R80
+    BrandName: Kodai
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: 9346ab56490607d48bdf614a1014032a, type: 3}
+    CarClass: 1
+    uniqueID: supra
+    vehicle: {fileID: 1591677526211030938, guid: bf7311e1bcd020641a5097ff7bbac6f0, type: 3}
+    aiVehicle: {fileID: 2800006758703807343, guid: e2144684fc73d9242a1b21fce3998dd7, type: 3}
+    menuVehicle: {fileID: 4041942991542978427, guid: 7049193b19127644c801365d2c37cb8f, type: 3}
+    topSpeed: 0.341
+    acceleration: 0.307
+    handling: 0.263
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: 30a9ecd392cfba643b568055a51b56b0, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 150000
+    isPaintable: 1
+    stockColor: {r: 1, g: 1, b: 1, a: 1}
+  - ModelName: Stinger 993
+    BrandName: Porshen
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: 2c2241ec6cbb9714d8eab9e94dac9d51, type: 3}
+    CarClass: 1
+    uniqueID: porshe93
+    vehicle: {fileID: 4420302391820671691, guid: 94117232d6d79124194d15aa62b85a12, type: 3}
+    aiVehicle: {fileID: 1925591322304368690, guid: db85d3f8a2dc26d49ab0753c677db25a, type: 3}
+    menuVehicle: {fileID: 8600599012634979647, guid: 5dceda68cda25994194e586218a93978, type: 3}
+    topSpeed: 0.345
+    acceleration: 0.287
+    handling: 0.27
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: 8aa341c1daa5d9648aab9eacaa1c8ed7, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 140000
+    isPaintable: 1
+    stockColor: {r: 0.97735846, g: 0.76205695, b: 0, a: 1}
+  - ModelName: Kazda
+    BrandName: RX 7
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: 8c99eb91e1b77d9419b437d3272a9cb9, type: 3}
+    CarClass: 1
+    uniqueID: mazdarx
+    vehicle: {fileID: 3182205784597618788, guid: ac02cbbe3e076b64f9ded0c6b89c294e, type: 3}
+    aiVehicle: {fileID: 6292140112173046544, guid: 439416340c0a63a499d02adb952e6a44, type: 3}
+    menuVehicle: {fileID: 3107277605606335762, guid: b18cc7b5bfa7fd6428f67b272c531f12, type: 3}
+    topSpeed: 0.392
+    acceleration: 0.314
+    handling: 0.263
+    braking: 0.331
+    bodyMaterials:
+    - {fileID: 2100000, guid: dc26ae408cfb9704392dc50b9bd026c5, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 170000
+    isPaintable: 1
+    stockColor: {r: 0.8867924, g: 0.59930634, b: 0, a: 1}
+  - ModelName: Stallion GT
+    BrandName: Void
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: 7f742b1b3f599a5428449dfb2147165a, type: 3}
+    CarClass: 1
+    uniqueID: mustang
+    vehicle: {fileID: 6160644892620332859, guid: a738fe8357f85c14cb179af98c63c524, type: 3}
+    aiVehicle: {fileID: 1104356004623900808, guid: 198681e655b471148963255b68099f96, type: 3}
+    menuVehicle: {fileID: 8336600117381545249, guid: 56dd96170c628c2489438370b249697f, type: 3}
+    topSpeed: 0.331
+    acceleration: 0.3
+    handling: 0.27
+    braking: 0.372
+    bodyMaterials:
+    - {fileID: 2100000, guid: c635d496c2e16bb4b962ed859e1ce59f, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 160000
+    isPaintable: 1
+    stockColor: {r: 1, g: 0.80113524, b: 0.011764705, a: 1}
+  - ModelName: Jester S
+    BrandName: Kodai
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: e9fe39b3866061e429e105343310a213, type: 3}
+    CarClass: 1
+    uniqueID: supra90
+    vehicle: {fileID: 4147180357383222744, guid: 3933dbfef1b99814bb124e1f0b0ccbbc, type: 3}
+    aiVehicle: {fileID: 2209342797334669980, guid: 79fe749196f0d2b4d898fd1b0ac28e32, type: 3}
+    menuVehicle: {fileID: 2940332057732219592, guid: e17f1397175bad44eac181686722dd8d, type: 3}
+    topSpeed: 0.256
+    acceleration: 0.256
+    handling: 0.212
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: e9863ce9d21f4cc4cb730b96ae5269a9, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 180000
+    isPaintable: 1
+    stockColor: {r: 0.5999999, g: 0, b: 0.024298664, a: 1}
+  - ModelName: Midnight F
+    BrandName: Annis
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: e60526d4494731a4abd6e1f5071940e9, type: 3}
+    CarClass: 1
+    uniqueID: fairlady
+    vehicle: {fileID: 4152637035383838869, guid: b3980661fc9600247bfe955a3eb8bfae, type: 3}
+    aiVehicle: {fileID: 4577008597066309189, guid: a1f8091e5835b1e49b0155d56c4a95e4, type: 3}
+    menuVehicle: {fileID: 6966697163273075611, guid: 3625be6b30895644e880c394ac5688ec, type: 3}
+    topSpeed: 0.331
+    acceleration: 0.287
+    handling: 0.139
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: a00873944503cf6468abf83f9eac54fd, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 180000
+    isPaintable: 1
+    stockColor: {r: 0.4641509, g: 0.4641509, b: 0.4641509, a: 1}
+  - ModelName: Evolution_mk9
+    BrandName: Itubisi
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: 6c5f832877603184c9fc425c0a979c5a, type: 3}
+    CarClass: 1
+    uniqueID: evolution_mk9
+    vehicle: {fileID: 7812239112204492053, guid: 2b17b2ee4b1d48341b78eec87c24bd5c, type: 3}
+    aiVehicle: {fileID: 8639089230273534569, guid: d3168f0b02af5a34eb334cde86c2cf3d, type: 3}
+    menuVehicle: {fileID: 7852899162123142354, guid: 6db2edc0d0fc6a443b50ebcbb97f343a, type: 3}
+    topSpeed: 0.464
+    acceleration: 0.328
+    handling: 0.266
+    braking: 0.334
+    bodyMaterials:
+    - {fileID: 2100000, guid: 4e69c8527d1b0a5449389830e9c1bb3a, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 190000
+    isPaintable: 1
+    stockColor: {r: 0.8117647, g: 0, b: 0.0168488, a: 1}
+  - ModelName: Horizon GT34R
+    BrandName: Annis
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: c1bbc2609118cf740aa74d5e7e999071, type: 3}
+    CarClass: 1
+    uniqueID: r34
+    vehicle: {fileID: 6046721567935965346, guid: ab607850b4bd6424a898dd8482f12d59, type: 3}
+    aiVehicle: {fileID: 2021341611612808544, guid: ace4f9d131401b94d9f3eedb229daba6, type: 3}
+    menuVehicle: {fileID: 9088225715897678975, guid: e5ca1ed3d715f714293419d3267dd44e, type: 3}
+    topSpeed: 0.334
+    acceleration: 0.328
+    handling: 0.266
+    braking: 0.334
+    bodyMaterials:
+    - {fileID: 2100000, guid: e56b28a2666bb1d4f815481109d4c7c8, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 220000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.27801216, b: 0.8113208, a: 1}
+  - ModelName: 3S Coupe
+    BrandName: UDM
+    CarClassNames: Drift
+    previewSprite: {fileID: 21300000, guid: f31a85eeb4cec9040b50a7bf81fd4ee8, type: 3}
+    CarClass: 6
+    uniqueID: e36drift
+    vehicle: {fileID: 5940776771722951738, guid: 11f4856869e0ef24da1a8b92d5090b68, type: 3}
+    aiVehicle: {fileID: 5940776771722951738, guid: 11f4856869e0ef24da1a8b92d5090b68, type: 3}
+    menuVehicle: {fileID: 6135095161938800254, guid: 589d38f1e36a2d54a88964e07fe1501a, type: 3}
+    topSpeed: 0.428
+    acceleration: 0.343
+    handling: 0.3
+    braking: 0.215
+    bodyMaterials:
+    - {fileID: 2100000, guid: ccb7e4d3494db61498d7e81848f2986e, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 180000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.34804696, b: 0.5999999, a: 1}
+  - ModelName: NSX
+    BrandName: Sakura
+    CarClassNames: Drift
+    previewSprite: {fileID: 21300000, guid: 2548dc910e73feb47af691c9f6ec64e8, type: 3}
+    CarClass: 6
+    uniqueID: acuransx
+    vehicle: {fileID: 9144817974034013601, guid: 6c22a1c35e15c4047ad4ef3053c34ee5, type: 3}
+    aiVehicle: {fileID: 9144817974034013601, guid: 6c22a1c35e15c4047ad4ef3053c34ee5, type: 3}
+    menuVehicle: {fileID: 2637531733522357458, guid: be15c1c416f0b9b42ae76571bb0ad1bd, type: 3}
+    topSpeed: 0.5
+    acceleration: 0.435
+    handling: 0.407
+    braking: 0.419
+    bodyMaterials:
+    - {fileID: 2100000, guid: 936c92a37340a50449024bb6608424d9, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 250000
+    isPaintable: 1
+    stockColor: {r: 0.062150165, g: 0.1632905, b: 0.7660377, a: 1}
+  - ModelName: Camaric SS
+    BrandName: Cheval
+    CarClassNames: Sport
+    previewSprite: {fileID: 21300000, guid: 2a5624d0df27d974c9eacda28be6757f, type: 3}
+    CarClass: 1
+    uniqueID: camaross
+    vehicle: {fileID: 7726188310063573116, guid: 3a5cb405d27481c4da649b844d233e8d, type: 3}
+    aiVehicle: {fileID: 2804748115933765932, guid: 81434392859a00949bb7cae7c34b78a2, type: 3}
+    menuVehicle: {fileID: 3856206101337999581, guid: 54277b76a2667bd40a208300f21a0f52, type: 3}
+    topSpeed: 0.411
+    acceleration: 0.365
+    handling: 0.28
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: edc4ee8f176cc9c4daad988e02c4b869, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 250000
+    isPaintable: 1
+    stockColor: {r: 0.7735849, g: 0.5600148, b: 0.02773218, a: 1}
+  - ModelName: NX 240
+    BrandName: Annis
+    CarClassNames: Drift
+    previewSprite: {fileID: 0}
+    CarClass: 6
+    uniqueID: nx240
+    vehicle: {fileID: 4459622412592663922, guid: cd780aad981af92439fcd9984073e176, type: 3}
+    aiVehicle: {fileID: 4459622412592663922, guid: cd780aad981af92439fcd9984073e176, type: 3}
+    menuVehicle: {fileID: 392017762809720803, guid: 2c432a0639cfc2441ba810681b5c79cf, type: 3}
+    topSpeed: 0.331
+    acceleration: 0.287
+    handling: 0.139
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: 9b24f86b2981c954a8590f9e1e9026d1, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 240000
+    isPaintable: 1
+    stockColor: {r: 0.690566, g: 0, b: 0, a: 1}
+  - ModelName: Z 350 Tune
+    BrandName: Annis
+    CarClassNames: Drift
+    previewSprite: {fileID: 21300000, guid: 2d130f001ec5ad94d98519f2ca312e92, type: 3}
+    CarClass: 6
+    uniqueID: z350
+    vehicle: {fileID: 7912539833295065436, guid: 5bbbee03c7945ef42bc15e7682838dca, type: 3}
+    aiVehicle: {fileID: 7912539833295065436, guid: 5bbbee03c7945ef42bc15e7682838dca, type: 3}
+    menuVehicle: {fileID: 2554082468350730872, guid: a772047234e3c4347a46d1ef03e821ec, type: 3}
+    topSpeed: 0.331
+    acceleration: 0.287
+    handling: 0.293
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: 40e722bc2c9fcc14da2d33474d1e912d, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 330000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.554717, b: 0.114818364, a: 1}
+  - ModelName: GrandCoupe S
+    BrandName: Manzerro
+    CarClassNames: Perfomance
+    previewSprite: {fileID: 21300000, guid: 4ca8b2c973ea3c04bb6179540ddcd3d1, type: 3}
+    CarClass: 2
+    uniqueID: Manzerro
+    vehicle: {fileID: 2598672560856510896, guid: 830d2981f48fb1747bf36d5ec5af7f88, type: 3}
+    aiVehicle: {fileID: 689191807387715035, guid: 960c21b4c38e2384c9e4eae10fe37cb8, type: 3}
+    menuVehicle: {fileID: 326856735852751849, guid: 06ec410019da34d4ea61635b68abe4cc, type: 3}
+    topSpeed: 0.28
+    acceleration: 0.358
+    handling: 0.222
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: 90a1a4512e623de4581c84ddaea03c65, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 200000
+    isPaintable: 1
+    stockColor: {r: 0.6075471, g: 0.6075471, b: 0.6075471, a: 1}
+  - ModelName: GT3 RS
+    BrandName: Porshen
+    CarClassNames: Perfomance
+    previewSprite: {fileID: 21300000, guid: c296f4464281ce4499620348b04476e3, type: 3}
+    CarClass: 2
+    uniqueID: GT3 RS
+    vehicle: {fileID: 3877123910740881439, guid: 09eae6bc6fab94f4c95fb31388f91f85, type: 3}
+    aiVehicle: {fileID: 4201252075286349634, guid: b1caa19dfe37dd24db378ced4f34abaa, type: 3}
+    menuVehicle: {fileID: 8301696482354965483, guid: e60fc77dcd83a7e4bbe12600af82a00e, type: 3}
+    topSpeed: 0.28
+    acceleration: 0.358
+    handling: 0.222
+    braking: 0.252
+    bodyMaterials:
+    - {fileID: 2100000, guid: c8d12838187076f4f83f2117da56798f, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 270000
+    isPaintable: 1
+    stockColor: {r: 0.16078432, g: 0.32156864, b: 0.48235297, a: 1}
+  - ModelName: 'S-63 Coupe '
+    BrandName: Mercendez
+    CarClassNames: Perfomance
+    previewSprite: {fileID: 21300000, guid: a3634ae6a6d7f9c409d15092d99fbc61, type: 3}
+    CarClass: 2
+    uniqueID: 'S63Coupe '
+    vehicle: {fileID: 4871894313584944708, guid: f8ec2a4267b2cda4e96d16ba01d9d7f7, type: 3}
+    aiVehicle: {fileID: 5788441052505119503, guid: 3051351896b0a754a9c1496e43d366e2, type: 3}
+    menuVehicle: {fileID: 8531182376229574353, guid: 558a8086961fdec4097436adffb57a96, type: 3}
+    topSpeed: 0.468
+    acceleration: 0.43
+    handling: 0.331
+    braking: 0.399
+    bodyMaterials:
+    - {fileID: 2100000, guid: 81fd0632c5a805540b304b578a840911, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 300000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0, b: 0, a: 1}
+  - ModelName: Schlagen GT-R
+    BrandName: Mercendez
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: 1ab4a9297dc4d08499b069af3edf32c0, type: 3}
+    CarClass: 3
+    uniqueID: amggtr
+    vehicle: {fileID: 4281340195476501162, guid: 073901d8cb2af244db366e2ba7639df7, type: 3}
+    aiVehicle: {fileID: 480304312950555251, guid: d83f4aa7bf967e745b6d85abfaaa3c9b, type: 3}
+    menuVehicle: {fileID: 5157124756351992826, guid: d57cf10010b77cd4fa5b9b689404bbeb, type: 3}
+    topSpeed: 0.355
+    acceleration: 0.345
+    handling: 0.396
+    braking: 0.348
+    bodyMaterials:
+    - {fileID: 2100000, guid: 57f9cec6d538d3d40a3298b82e6d9b20, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 450000
+    isPaintable: 1
+    stockColor: {r: 0.5698112, g: 0.5698112, b: 0.5698112, a: 1}
+  - ModelName: 4S Coupe
+    BrandName: UDM
+    CarClassNames: Perfomance
+    previewSprite: {fileID: 21300000, guid: 725d39b94d557cc46ba66675272f2afd, type: 3}
+    CarClass: 2
+    uniqueID: bmw_m4
+    vehicle: {fileID: 2015681436336386653, guid: 9bd54faa3a98f994e9f38b944074e784, type: 3}
+    aiVehicle: {fileID: 779134936694791643, guid: b49926750eacc984999420acc05e255a, type: 3}
+    menuVehicle: {fileID: 6637115582914057184, guid: d3f2a2a5e61573740a046c6798c7b5cb, type: 3}
+    topSpeed: 0.338
+    acceleration: 0.276
+    handling: 0.331
+    braking: 0.399
+    bodyMaterials:
+    - {fileID: 2100000, guid: fa2a8c97f81d98e429fd135db9ff2257, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 350000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.34283724, b: 0.4943396, a: 1}
+  - ModelName: Bummer 5M
+    BrandName: UDM
+    CarClassNames: Perfomance
+    previewSprite: {fileID: 21300000, guid: 4f644576e22cf8648a3f0ad8480fb239, type: 3}
+    CarClass: 2
+    uniqueID: Bummer
+    vehicle: {fileID: 2796383031100972290, guid: afebcedf71bd0074fa447f2c461bcedc, type: 3}
+    aiVehicle: {fileID: 4189721547026948618, guid: c2cb0a26c2c823d42af4b849c4d3b57c, type: 3}
+    menuVehicle: {fileID: 4137731420972760458, guid: de7de412db6439142b85fc627c2178f6, type: 3}
+    topSpeed: 0.396
+    acceleration: 0.437
+    handling: 0.369
+    braking: 0.42
+    bodyMaterials:
+    - {fileID: 2100000, guid: 88b45e1aa18ec5648b7b821cb534ae43, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 310000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0, b: 0, a: 1}
+  - ModelName: GT35R
+    BrandName: Annis
+    CarClassNames: Perfomance
+    previewSprite: {fileID: 21300000, guid: 77847309f13ca434480c3c724ec27408, type: 3}
+    CarClass: 2
+    uniqueID: GT35R
+    vehicle: {fileID: 4764831779538221248, guid: e42f624e03d0a67409c3a642ef0cae39, type: 3}
+    aiVehicle: {fileID: 8963986235865767034, guid: d261bd732b6855b46be585089d237f5c, type: 3}
+    menuVehicle: {fileID: 502569902708788899, guid: e4117576d00fd0a41ae3bb0a0af74a4f, type: 3}
+    topSpeed: 0.416
+    acceleration: 0.526
+    handling: 0.457
+    braking: 0.392
+    bodyMaterials:
+    - {fileID: 2100000, guid: b2ca477176a2739478a4c8fdc339861b, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 420000
+    isPaintable: 1
+    stockColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+  - ModelName: GT35R
+    BrandName: Annis
+    CarClassNames: Drift
+    previewSprite: {fileID: 21300000, guid: 2d130f001ec5ad94d98519f2ca312e92, type: 3}
+    CarClass: 6
+    uniqueID: GT35RDrift
+    vehicle: {fileID: 4216364780370982257, guid: dfc728518cc265043ac978cf34af75e0, type: 3}
+    aiVehicle: {fileID: 4216364780370982257, guid: dfc728518cc265043ac978cf34af75e0, type: 3}
+    menuVehicle: {fileID: 3286138893240858483, guid: 423bf53decefab94d921f7e2c14e2dd7, type: 3}
+    topSpeed: 0.573
+    acceleration: 0.526
+    handling: 0.457
+    braking: 0.392
+    bodyMaterials:
+    - {fileID: 2100000, guid: 7d52c05a420c258418dcf1d5f3814736, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 450000
+    isPaintable: 1
+    stockColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+  - ModelName: Paragon SS Convertible
+    BrandName: Bantly
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: f0ae6c71c2795f0479ac0ea1f899a64f, type: 3}
+    CarClass: 3
+    uniqueID: 2010_cont
+    vehicle: {fileID: 3509144731357524381, guid: c30936c9bcda5ba4d82db642e76cfc47, type: 3}
+    aiVehicle: {fileID: 3458256223307078668, guid: 91034e78a869921418a9b7db453e8fb1, type: 3}
+    menuVehicle: {fileID: 333360563050054734, guid: ca1fe8f8a0d43e547b028631e1e6cdd7, type: 3}
+    topSpeed: 0.396
+    acceleration: 0.491
+    handling: 0.5
+    braking: 0.5
+    bodyMaterials:
+    - {fileID: 2100000, guid: fd75b3a35ac311a488b65d601e61f93e, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 580000
+    isPaintable: 1
+    stockColor: {r: 0.5320754, g: 0.5320754, b: 0.5320754, a: 1}
+  - ModelName: Fairlight SRV
+    BrandName: Ocelot
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: 026edc55e47522e498932a62670d8d2a, type: 3}
+    CarClass: 3
+    uniqueID: 2016_ftype_svr
+    vehicle: {fileID: 1620950679631972396, guid: d1e7c654d35437441a1f61a53a5d48e2, type: 3}
+    aiVehicle: {fileID: 253708169297268503, guid: 32cf52cf3c8363f4086c67d227588340, type: 3}
+    menuVehicle: {fileID: 3894835918501813770, guid: 74c8a9ddf15a6f942a04f3ebde1873fc, type: 3}
+    topSpeed: 0.386
+    acceleration: 0.502
+    handling: 0.437
+    braking: 0.386
+    bodyMaterials:
+    - {fileID: 2100000, guid: f9f7a7d26fbe76342b63778d3bae48b1, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 600000
+    isPaintable: 1
+    stockColor: {r: 0.4943396, g: 0.4943396, b: 0.4943396, a: 1}
+  - ModelName: Countach
+    BrandName: Lampadati
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: ad578688444570c46af1b5cbb947efbe, type: 3}
+    CarClass: 3
+    uniqueID: Countach
+    vehicle: {fileID: 4798951810146107367, guid: 27ec171964555d044b5aaf1841f90f45, type: 3}
+    aiVehicle: {fileID: 6624563410363267550, guid: 0bf2d2bcc60355a4182d206e5fdead06, type: 3}
+    menuVehicle: {fileID: 2882486569040248975, guid: 6017e7800e2087c4781cc1a9f406e642, type: 3}
+    topSpeed: 0.464
+    acceleration: 0.529
+    handling: 0.423
+    braking: 0.396
+    bodyMaterials:
+    - {fileID: 2100000, guid: 34758cf72d9a1b848a8500ab6144b826, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 700000
+    isPaintable: 1
+    stockColor: {r: 0.5018867, g: 0.5018867, b: 0.5018867, a: 1}
+  - ModelName: Infernus SV
+    BrandName: Lampadati
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: d3e4c6d05e2987c4db0dbf912bc61e8b, type: 3}
+    CarClass: 3
+    uniqueID: diablosv
+    vehicle: {fileID: 1584261240362853139, guid: 25827b67bf7464d44924062588eb42b5, type: 3}
+    aiVehicle: {fileID: 7101119791462604716, guid: 01abe74f5dda463459bdf430a909dfff, type: 3}
+    menuVehicle: {fileID: 3975057427340581897, guid: dccb23f6783e4fc4bb2784eeec9f13ee, type: 3}
+    topSpeed: 0.464
+    acceleration: 0.529
+    handling: 0.423
+    braking: 0.396
+    bodyMaterials:
+    - {fileID: 2100000, guid: dd60528f55865b74d807d198f218775e, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 800000
+    isPaintable: 1
+    stockColor: {r: 1, g: 0.8133886, b: 0, a: 1}
+  - ModelName: B2
+    BrandName: Mariya
+    CarClassNames: Super
+    previewSprite: {fileID: 0}
+    CarClass: 3
+    uniqueID: b2
+    vehicle: {fileID: 7758094468209782541, guid: df0fa446a338bf64db7f85da12952aaa, type: 3}
+    aiVehicle: {fileID: 2788150642344194795, guid: 9edac103df7f5cf48809f0f4bfa3891b, type: 3}
+    menuVehicle: {fileID: 3767617211938599094, guid: b5e5897fbc2e8e04ba589e98d19ad973, type: 3}
+    topSpeed: 0.451
+    acceleration: 0.42
+    handling: 0.495
+    braking: 0.41
+    bodyMaterials:
+    - {fileID: 2100000, guid: 04cb3b7899d9d61498ab5e3346531bd7, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 850000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.45031667, b: 1, a: 1}
+  - ModelName: Hurricane
+    BrandName: Lampadati
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: 27564bd3532b47946a7f9fa27bb26d3f, type: 3}
+    CarClass: 3
+    uniqueID: 2014_huracan
+    vehicle: {fileID: 7005222412986406781, guid: 98df36652ce11344ebe185da2af70f19, type: 3}
+    aiVehicle: {fileID: 3140032705848268036, guid: e70945db5a69ebd4bb3fc54ebcff09b1, type: 3}
+    menuVehicle: {fileID: 811707717817576768, guid: 89d63507922bce441a228f2f2b779bb7, type: 3}
+    topSpeed: 0.563
+    acceleration: 0.474
+    handling: 0.416
+    braking: 0.529
+    bodyMaterials:
+    - {fileID: 2100000, guid: 777029081f22b0441b89e948ca5892b3, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 900000
+    isPaintable: 1
+    stockColor: {r: 0.3132075, g: 0.3132075, b: 0.3132075, a: 1}
+  - ModelName: 512 TR
+    BrandName: Furrano
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: ef7be41f28bfee949b49cae76e6c513e, type: 3}
+    CarClass: 3
+    uniqueID: 512 TR
+    vehicle: {fileID: 1850894916171952476, guid: 0124351383c02cb4a8b253b726999673, type: 3}
+    aiVehicle: {fileID: 4573224627528431428, guid: e43fcf6877e4d33499cbf37dc0e2cd98, type: 3}
+    menuVehicle: {fileID: 4993418323834168544, guid: 168ecb842092c0a4cabe6dea18010f66, type: 3}
+    topSpeed: 0.392
+    acceleration: 0.374
+    handling: 0.366
+    braking: 0.317
+    bodyMaterials:
+    - {fileID: 2100000, guid: 57c47b34ba5e26e4e8b7e07d64130744, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 950000
+    isPaintable: 1
+    stockColor: {r: 0.7132075, g: 0.014802404, b: 0.014802404, a: 1}
+  - ModelName: GTB 480
+    BrandName: Furrano
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: 3eddc31efed055744acc048b9e933af0, type: 3}
+    CarClass: 3
+    uniqueID: 488
+    vehicle: {fileID: 1369695003500651124, guid: ae11fb6346357864d9d49e31b5b09154, type: 3}
+    aiVehicle: {fileID: 7826478691532252652, guid: c9c922d8cc397b647a790c44bf7738e0, type: 3}
+    menuVehicle: {fileID: 4536637164828054111, guid: f1771056856c02843a014f895137b994, type: 3}
+    topSpeed: 0.628
+    acceleration: 0.532
+    handling: 0.594
+    braking: 0.522
+    bodyMaterials:
+    - {fileID: 2100000, guid: 57c47b34ba5e26e4e8b7e07d64130744, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1000000
+    isPaintable: 1
+    stockColor: {r: 0.7132075, g: 0.014802404, b: 0.014802404, a: 1}
+  - ModelName: GTS
+    BrandName: Evade
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: 2288f004d8b7eac4487f424970cc902b, type: 3}
+    CarClass: 3
+    uniqueID: 2013_viper_gts
+    vehicle: {fileID: 3337579363336599485, guid: 468bb8905ef39b54bb3f0d4d4c8d803f, type: 3}
+    aiVehicle: {fileID: 346239055260039463, guid: 77f07f0ea6e4f424f9cb1e3eb153b9c9, type: 3}
+    menuVehicle: {fileID: 4418677671422931272, guid: c6d5d7283f2251b4b8d5e121f9ed4de0, type: 3}
+    topSpeed: 0.594
+    acceleration: 0.638
+    handling: 0.543
+    braking: 0.502
+    bodyMaterials:
+    - {fileID: 2100000, guid: efcbc36e8ae30a2498026335531795fb, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1100000
+    isPaintable: 1
+    stockColor: {r: 1, g: 1, b: 1, a: 1}
+  - ModelName: Viper
+    BrandName: Evade
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: c5ce86eff1a41104a918a50584685909, type: 3}
+    CarClass: 3
+    uniqueID: Viper
+    vehicle: {fileID: 415094451163297560, guid: 44d80a3661c58d64c94c72d18534c75b, type: 3}
+    aiVehicle: {fileID: 6390848458218001114, guid: e6a90b35375192a458e2a83414bafd7c, type: 3}
+    menuVehicle: {fileID: 2200317914613522383, guid: 007b2814c09b15f4a900d4e6a0cc7b5f, type: 3}
+    topSpeed: 0.483
+    acceleration: 0.423
+    handling: 0.419
+    braking: 0.415
+    bodyMaterials:
+    - {fileID: 2100000, guid: a80f0ee98430c884ea9f363f64ee19e6, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1150000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.24121235, b: 0.5254902, a: 1}
+  - ModelName: Conqueror Z8
+    BrandName: Cheval
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: 09a4c07419ca01947869a93edccaa956, type: 3}
+    CarClass: 3
+    uniqueID: 2020_c8
+    vehicle: {fileID: 4120816437553233719, guid: 3aa34ee6fd3123c44a6a86d51d5b2369, type: 3}
+    aiVehicle: {fileID: 6141533675276728902, guid: d584d0825a442c14aa80f25d4dff1239, type: 3}
+    menuVehicle: {fileID: 1864662502394560248, guid: c33e27b8bb03f9d4b8ee6555e613b882, type: 3}
+    topSpeed: 0.614
+    acceleration: 0.543
+    handling: 0.502
+    braking: 0.549
+    bodyMaterials:
+    - {fileID: 2100000, guid: 7fc11b8cd6245e04da7a1a5736848d46, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1250000
+    isPaintable: 1
+    stockColor: {r: 0.96981126, g: 0, b: 0, a: 1}
+  - ModelName: Bullet GT
+    BrandName: Void
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: 45b7b4a2e3dda8142993c49cda587cb0, type: 3}
+    CarClass: 3
+    uniqueID: 2017_gt
+    vehicle: {fileID: 8150260133464898311, guid: a094aa03cc9f49a45be48be97ec0857a, type: 3}
+    aiVehicle: {fileID: 4520698201619820539, guid: 6a558a54b2d43c144b4ae09bff4fdab5, type: 3}
+    menuVehicle: {fileID: 4867605499200953290, guid: 3c98c9fbe66bcfa4892da15697c0fac8, type: 3}
+    topSpeed: 0.471
+    acceleration: 0.42
+    handling: 0.502
+    braking: 0.522
+    bodyMaterials:
+    - {fileID: 2100000, guid: 0930f9354b6e0984ca41ffbce429e241, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1300000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.41161442, b: 1, a: 1}
+  - ModelName: P720 Coupe
+    BrandName: McLaurent
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: 302468c8f9fe83245b186785aa6bd8a3, type: 3}
+    CarClass: 3
+    uniqueID: 2017_mcl_720s
+    vehicle: {fileID: 4887590942976850029, guid: 8b202dd5a28ae6b409c79d4b3182e9f0, type: 3}
+    aiVehicle: {fileID: 6312799678841435245, guid: c5aff286d234d574ea958363a1b605be, type: 3}
+    menuVehicle: {fileID: 2548002462662898180, guid: 1d9e42f55b35c1a4780f4daf1d523d2f, type: 3}
+    topSpeed: 0.549
+    acceleration: 0.481
+    handling: 0.57
+    braking: 0.447
+    bodyMaterials:
+    - {fileID: 2100000, guid: adf5cc97fbd82a94d82d51f48c33888e, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1400000
+    isPaintable: 1
+    stockColor: {r: 0.4641509, g: 0.4641509, b: 0.4641509, a: 1}
+  - ModelName: Le Mans GT
+    BrandName: Aud
+    CarClassNames: Hyper
+    previewSprite: {fileID: 21300000, guid: 5f79c13b87e16a145a330eecd7d2016d, type: 3}
+    CarClass: 4
+    uniqueID: LeMansGT
+    vehicle: {fileID: 3165412585239117196, guid: bf46c877663989142bae7bd358a99c3f, type: 3}
+    aiVehicle: {fileID: 2989978038849710438, guid: 9f105e5e4e7c4e34e8f7511e29993c72, type: 3}
+    menuVehicle: {fileID: 5013354257331010811, guid: 61985152486310e4ab65f139a2ce4f4f, type: 3}
+    topSpeed: 0.618
+    acceleration: 0.529
+    handling: 0.621
+    braking: 0.509
+    bodyMaterials:
+    - {fileID: 2100000, guid: b4947e314f32b3a469aa37d8d53f4c4f, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 800000
+    isPaintable: 1
+    stockColor: {r: 0.4415095, g: 0.4415095, b: 0.4415095, a: 1}
+  - ModelName: GP-1
+    BrandName: McLaurent
+    CarClassNames: Hyper
+    previewSprite: {fileID: 21300000, guid: 5f79c13b87e16a145a330eecd7d2016d, type: 3}
+    CarClass: 4
+    uniqueID: 1993_mcl_f1
+    vehicle: {fileID: 2722761512072918460, guid: 070d1d1e53ee1ea43b7ed59646719471, type: 3}
+    aiVehicle: {fileID: 7601705230273829653, guid: ba23ff94f86f6fa41b9fbb918c7c013d, type: 3}
+    menuVehicle: {fileID: 1952988039537298250, guid: 8fb1eb2e2ffb218479a520971bc1db3f, type: 3}
+    topSpeed: 0.618
+    acceleration: 0.529
+    handling: 0.621
+    braking: 0.509
+    bodyMaterials:
+    - {fileID: 2100000, guid: bdde1f01e19c5704ab04c323d4b16a8c, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 950000
+    isPaintable: 1
+    stockColor: {r: 1, g: 0.37404585, b: 0, a: 1}
+  - ModelName: Atlas R
+    BrandName: Koenieng
+    CarClassNames: Hyper
+    previewSprite: {fileID: 21300000, guid: 337c83a4fa9f2244ab84574ec34ee65e, type: 3}
+    CarClass: 4
+    uniqueID: 2011_agera_r
+    vehicle: {fileID: 726625302873075277, guid: 5a42ce0d722f0e447922b816b133b86f, type: 3}
+    aiVehicle: {fileID: 7636518798493571302, guid: de37f86cab8fcce4c87ace1d3b9ab7b0, type: 3}
+    menuVehicle: {fileID: 1575032109390245565, guid: 6a79a9a4b58c09c4787cd0f795354bd8, type: 3}
+    topSpeed: 0.676
+    acceleration: 0.614
+    handling: 0.587
+    braking: 0.669
+    bodyMaterials:
+    - {fileID: 2100000, guid: 7f51f9ee64efce54d83cb2d2033da35d, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1100000
+    isPaintable: 1
+    stockColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+  - ModelName: Venenum GT
+    BrandName: Helanger
+    CarClassNames: Hyper
+    previewSprite: {fileID: 21300000, guid: f96120b88b2cdc744a0887f1456f750a, type: 3}
+    CarClass: 4
+    uniqueID: 2011_venom_gt
+    vehicle: {fileID: 3789732455630979493, guid: 38124f91d83d14f4e811dbff63c2568a, type: 3}
+    aiVehicle: {fileID: 402137828826049434, guid: 4f594af912947e64eb1d21b5e08282f3, type: 3}
+    menuVehicle: {fileID: 7895974403341208569, guid: e328b098dbcbd3e448f8848e6b5f125c, type: 3}
+    topSpeed: 0.611
+    acceleration: 0.573
+    handling: 0.485
+    braking: 0.59
+    bodyMaterials:
+    - {fileID: 2100000, guid: 54cf8877271bd7b4798cac99de0b4362, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1350000
+    isPaintable: 1
+    stockColor: {r: 1, g: 0.6795303, b: 0, a: 1}
+  - ModelName: Hyperion Sport
+    BrandName: Bagetti
+    CarClassNames: Hyper
+    previewSprite: {fileID: 21300000, guid: 7941a4611c57b1c468f184aa609a585e, type: 3}
+    CarClass: 4
+    uniqueID: chiron
+    vehicle: {fileID: 2152713996486615314, guid: c7e979a8d1e009746997af591e206334, type: 3}
+    aiVehicle: {fileID: 2152713996486615314, guid: c7e979a8d1e009746997af591e206334, type: 3}
+    menuVehicle: {fileID: 345107853087857987, guid: 8ba773d505e91384080ccd502e74458d, type: 3}
+    topSpeed: 0.713
+    acceleration: 0.6
+    handling: 0.7
+    braking: 0.594
+    bodyMaterials:
+    - {fileID: 2100000, guid: c1548410471fa13479a3efa86beea559, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1600000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.22019975, b: 0.5849056, a: 1}
+  - ModelName: Throne
+    BrandName: Mercendez
+    CarClassNames: Hyper
+    previewSprite: {fileID: 21300000, guid: e89d06ba320c8e04da457940391abd05, type: 3}
+    CarClass: 4
+    uniqueID: 2022_amg_one
+    vehicle: {fileID: 5508051478580352584, guid: 577e27adf7cbc0d47a4d5260cfa4a4f1, type: 3}
+    aiVehicle: {fileID: 5508051478580352584, guid: 577e27adf7cbc0d47a4d5260cfa4a4f1, type: 3}
+    menuVehicle: {fileID: 4117865144949571796, guid: 98086013bb931754eafe4e2d544d83a2, type: 3}
+    topSpeed: 0.805
+    acceleration: 0.669
+    handling: 0.7
+    braking: 0.614
+    bodyMaterials:
+    - {fileID: 2100000, guid: 7a3c0b42c53a75647bf4293eb93c79fc, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 2150000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0, b: 0, a: 1}
+  - ModelName: Nebula
+    BrandName: Aniston
+    CarClassNames: Super
+    previewSprite: {fileID: 21300000, guid: 11f971613bf876b4c97d8b514ae213cc, type: 3}
+    CarClass: 3
+    uniqueID: 2020_valkyrie
+    vehicle: {fileID: 6412099832613731910, guid: 5dbf6febf20f5214c9f866e2b5780030, type: 3}
+    aiVehicle: {fileID: 6412099832613731910, guid: 5dbf6febf20f5214c9f866e2b5780030, type: 3}
+    menuVehicle: {fileID: 2644427282366360385, guid: 4f4e422ef41fd94498a44a4ac3b04775, type: 3}
+    topSpeed: 0.754
+    acceleration: 0.747
+    handling: 0.7
+    braking: 0.604
+    bodyMaterials:
+    - {fileID: 2100000, guid: 68f974dd43dd8ba4bbdad3ef168355dd, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 1800000
+    isPaintable: 1
+    stockColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+  - ModelName: Aventodor
+    BrandName: Lampadati
+    CarClassNames: Cop
+    previewSprite: {fileID: 21300000, guid: 27564bd3532b47946a7f9fa27bb26d3f, type: 3}
+    CarClass: 3
+    uniqueID: AventodorCop
+    vehicle: {fileID: 2029441379302645020, guid: d7e6598942c123e45b985d9f620731a8, type: 3}
+    aiVehicle: {fileID: 2029441379302645020, guid: d7e6598942c123e45b985d9f620731a8, type: 3}
+    menuVehicle: {fileID: 5681437499775357336, guid: 0c6c170a607802549a47b05a15f01e9e, type: 3}
+    topSpeed: 0.563
+    acceleration: 0.474
+    handling: 0.416
+    braking: 0.529
+    bodyMaterials:
+    - {fileID: 2100000, guid: 777029081f22b0441b89e948ca5892b3, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 900000
+    isPaintable: 0
+    stockColor: {r: 0.3132075, g: 0.3132075, b: 0.3132075, a: 1}
+  - ModelName: Charger
+    BrandName: Evade
+    CarClassNames: Muscle
+    previewSprite: {fileID: 21300000, guid: 5e460ff53a4dd874b82a6746c7b8fbcb, type: 3}
+    CarClass: 8
+    uniqueID: generalrt
+    vehicle: {fileID: 431027011423671690, guid: d46f68e8a4418404cb6909fb02657116, type: 3}
+    aiVehicle: {fileID: 6783532908913419664, guid: 3736fc7262399ce44bbe2bbbe79d0900, type: 3}
+    menuVehicle: {fileID: 688305341811905841, guid: 599bddc956a50e3478fbabb033aaef61, type: 3}
+    topSpeed: 0.294
+    acceleration: 0.238
+    handling: 0.298
+    braking: 0.23
+    bodyMaterials:
+    - {fileID: 2100000, guid: bcda24b0f97993746aefe88256b92aea, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 150000
+    isPaintable: 1
+    stockColor: {r: 0.7509433, g: 0, b: 0, a: 1}
+  - ModelName: GT 500
+    BrandName: Void
+    CarClassNames: Muscle
+    previewSprite: {fileID: 21300000, guid: 82fdbf219f8356c45b60441baf77d7da, type: 3}
+    CarClass: 8
+    uniqueID: gta500
+    vehicle: {fileID: 6488234007276293241, guid: 7375647323a3ba9419220b6c7f3f45f9, type: 3}
+    aiVehicle: {fileID: 1550124314360075748, guid: 4c42002820bfa7d4da071a3aece75015, type: 3}
+    menuVehicle: {fileID: 2715706947014762984, guid: c67f4ff1c8789724a8723d58cb3e2f3c, type: 3}
+    topSpeed: 0.294
+    acceleration: 0.238
+    handling: 0.298
+    braking: 0.23
+    bodyMaterials:
+    - {fileID: 2100000, guid: e6ae628442536f6408bd731782ddf5e7, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 200000
+    isPaintable: 1
+    stockColor: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
+  - ModelName: RS 500
+    BrandName: Void
+    CarClassNames: Muscle
+    previewSprite: {fileID: 21300000, guid: f466845e3b56c904e86a16bc469dcf96, type: 3}
+    CarClass: 8
+    uniqueID: RS 500
+    vehicle: {fileID: 853758255512169781, guid: 7d6011db53190884494cab7f07fecd3b, type: 3}
+    aiVehicle: {fileID: 6072865008570001071, guid: 2b5a911d1c576ab42ae2a074dbede65d, type: 3}
+    menuVehicle: {fileID: 2437603760096407282, guid: 7116a94ef6bb43242bf39a53b0f88252, type: 3}
+    topSpeed: 0.36
+    acceleration: 0.32
+    handling: 0.354
+    braking: 0.407
+    bodyMaterials:
+    - {fileID: 2100000, guid: 6f89ac4272d5aff47b18b0a13500c0d5, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 300000
+    isPaintable: 1
+    stockColor: {r: 0, g: 0.6301887, b: 0.22392705, a: 1}
+  - ModelName: Unicom
+    BrandName: Lord
+    CarClassNames: Muscle
+    previewSprite: {fileID: 21300000, guid: 331a00027d069444e9bdd42d12a138a1, type: 3}
+    CarClass: 8
+    uniqueID: unicom
+    vehicle: {fileID: 5023094914671550800, guid: 80606f226d93ec749939919c0368c87e, type: 3}
+    aiVehicle: {fileID: 5023094914671550800, guid: 80606f226d93ec749939919c0368c87e, type: 3}
+    menuVehicle: {fileID: 8699836817228706753, guid: f8c7acb537662e1478cbed1ad3591699, type: 3}
+    topSpeed: 0.386
+    acceleration: 0.502
+    handling: 0.437
+    braking: 0.386
+    bodyMaterials:
+    - {fileID: 2100000, guid: 7241b9245108a8747a9e81b088ed42fa, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 500000
+    isPaintable: 1
+    stockColor: {r: 0.16226411, g: 0.16134563, b: 0.16134563, a: 1}
+  - ModelName: Patrol
+    BrandName: Annis
+    CarClassNames: Offroad
+    previewSprite: {fileID: 21300000, guid: c8dd1605f5c2e9e4789062fd95f788d6, type: 3}
+    CarClass: 7
+    uniqueID: Patrol
+    vehicle: {fileID: 4091159018664589450, guid: 2234d077c0e0c554e9a49919442970c0, type: 3}
+    aiVehicle: {fileID: 4974557286004740824, guid: cbaeccbae928b614cadcda516681675d, type: 3}
+    menuVehicle: {fileID: 6175191517355665198, guid: 478f15fe8fe630e4bb528c8f99843bd5, type: 3}
+    topSpeed: 0.386
+    acceleration: 0.502
+    handling: 0.437
+    braking: 0.386
+    bodyMaterials:
+    - {fileID: 2100000, guid: fd309713aa8ada64f84c64f52b0d0835, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 350000
+    isPaintable: 1
+    stockColor: {r: 0.16226411, g: 0.16134563, b: 0.16134563, a: 1}
+  - ModelName: Prado
+    BrandName: Kodai
+    CarClassNames: Offroad
+    previewSprite: {fileID: 21300000, guid: c8dd1605f5c2e9e4789062fd95f788d6, type: 3}
+    CarClass: 7
+    uniqueID: Prado
+    vehicle: {fileID: 799676641853161219, guid: b6124b383352be942bd7392b7cec3bc7, type: 3}
+    aiVehicle: {fileID: 6547553191655178316, guid: 2e6ac0ee5223b2f44b9d6de6acc18cfb, type: 3}
+    menuVehicle: {fileID: 8162820895154841337, guid: 797349b538d0bbc418e7d964d16d729e, type: 3}
+    topSpeed: 0.427
+    acceleration: 0.384
+    handling: 0.259
+    braking: 0.271
+    bodyMaterials:
+    - {fileID: 2100000, guid: c7be8d48ca1f7204f8e02e5d431cd691, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 400000
+    isPaintable: 1
+    stockColor: {r: 0.16226411, g: 0.16134563, b: 0.16134563, a: 1}
+  - ModelName: Cullinan
+    BrandName: Royce
+    CarClassNames: Offroad
+    previewSprite: {fileID: 21300000, guid: c8dd1605f5c2e9e4789062fd95f788d6, type: 3}
+    CarClass: 7
+    uniqueID: Cullinan
+    vehicle: {fileID: 5801888697874836388, guid: 13a460327c1095d4eab887530bf312fe, type: 3}
+    aiVehicle: {fileID: 1664085985643147590, guid: d3beb658ea28f774b825afe999be7070, type: 3}
+    menuVehicle: {fileID: 3405127526262764659, guid: 428a07313bf580d4f92db58d5eeac3ea, type: 3}
+    topSpeed: 0.584
+    acceleration: 0.384
+    handling: 0.259
+    braking: 0.271
+    bodyMaterials:
+    - {fileID: 2100000, guid: 55570ce9e538a37408f571eb9d0cd120, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 450000
+    isPaintable: 1
+    stockColor: {r: 0.5396226, g: 0.5396226, b: 0.5396226, a: 1}
+  - ModelName: KITT
+    BrandName: Ontiac
+    CarClassNames: Cult
+    previewSprite: {fileID: 21300000, guid: c8dd1605f5c2e9e4789062fd95f788d6, type: 3}
+    CarClass: 9
+    uniqueID: kitt
+    vehicle: {fileID: 5579823838970641487, guid: 2cd419484a1b264448d162b286a0fc00, type: 3}
+    aiVehicle: {fileID: 7785202632015549282, guid: e5d922881c4e3f34586d199c89ac4c66, type: 3}
+    menuVehicle: {fileID: 9219738351496916689, guid: 1b7d2813aab27eb4a97d2d0314898637, type: 3}
+    topSpeed: 0.718
+    acceleration: 0.306
+    handling: 0.426
+    braking: 0.174
+    bodyMaterials:
+    - {fileID: 2100000, guid: 64010d731c43d954aaf43359952f76f8, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 450000
+    isPaintable: 0
+    stockColor: {r: 0, g: 0, b: 0, a: 1}
+  - ModelName: E46 MW
+    BrandName: UDM
+    CarClassNames: Cult
+    previewSprite: {fileID: 21300000, guid: c8dd1605f5c2e9e4789062fd95f788d6, type: 3}
+    CarClass: 9
+    uniqueID: e46mw
+    vehicle: {fileID: 448407314396442986, guid: 0df45bcda84a5f144b1073d0a207eab1, type: 3}
+    aiVehicle: {fileID: 7976782166345820376, guid: f8067f7ada4e79b4e816ceee71909e68, type: 3}
+    menuVehicle: {fileID: 7754352635660802414, guid: 88b7a345f6ba24c4b9f5ca362a99da20, type: 3}
+    topSpeed: 0.468
+    acceleration: 0.306
+    handling: 0.426
+    braking: 0.174
+    bodyMaterials:
+    - {fileID: 2100000, guid: aaedac657f672e64689ea0289caf4598, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 450000
+    isPaintable: 0
+    stockColor: {r: 1, g: 1, b: 1, a: 1}
+  - ModelName: 350Z UG 2
+    BrandName: Annis
+    CarClassNames: Cult
+    previewSprite: {fileID: 21300000, guid: c8dd1605f5c2e9e4789062fd95f788d6, type: 3}
+    CarClass: 9
+    uniqueID: 350zug2
+    vehicle: {fileID: 6941561659007549357, guid: 4617384faba1f244a81c124fb02b37b9, type: 3}
+    aiVehicle: {fileID: 3309503299851023777, guid: 83aaeb0ae4074b74f99afc29485859d0, type: 3}
+    menuVehicle: {fileID: 258534903492712411, guid: ae101b2d3ce31384f9b54c7a865f3872, type: 3}
+    topSpeed: 0.468
+    acceleration: 0.306
+    handling: 0.426
+    braking: 0.174
+    bodyMaterials:
+    - {fileID: 2100000, guid: aaedac657f672e64689ea0289caf4598, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 1
+    unlockCost: 550000
+    isPaintable: 0
+    stockColor: {r: 1, g: 1, b: 1, a: 1}
+  - ModelName: O'Conner
+    BrandName: Annis
+    CarClassNames: Cult
+    previewSprite: {fileID: 21300000, guid: c8dd1605f5c2e9e4789062fd95f788d6, type: 3}
+    CarClass: 9
+    uniqueID: oconer
+    vehicle: {fileID: 984963913666840597, guid: 41a4f33ab8efba54d9636c391f1266cf, type: 3}
+    aiVehicle: {fileID: 7842764550959838508, guid: 66bebed5c0bfa04439cd2fdd368faa8c, type: 3}
+    menuVehicle: {fileID: 5747252061155461584, guid: 69052a5373a514a40b8958f6c51b323c, type: 3}
+    topSpeed: 0.634
+    acceleration: 0.471
+    handling: 0.325
+    braking: 0.174
+    bodyMaterials:
+    - {fileID: 2100000, guid: aaedac657f672e64689ea0289caf4598, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 700000
+    isPaintable: 0
+    stockColor: {r: 1, g: 1, b: 1, a: 1}
+  - ModelName: Mona Lisa
+    BrandName: Annis
+    CarClassNames: Cult
+    previewSprite: {fileID: 21300000, guid: c8dd1605f5c2e9e4789062fd95f788d6, type: 3}
+    CarClass: 9
+    uniqueID: monalisa
+    vehicle: {fileID: 214280864522071816, guid: bde5f35fe07de794286f9b6cfb532357, type: 3}
+    aiVehicle: {fileID: 5810545430945294239, guid: fc074bcb0d7c88f469104fbde32157a0, type: 3}
+    menuVehicle: {fileID: 243056384086633572, guid: a720ce5a6d333f349ae9c3a415ab95d3, type: 3}
+    topSpeed: 0.702
+    acceleration: 0.471
+    handling: 0.325
+    braking: 0.174
+    bodyMaterials:
+    - {fileID: 2100000, guid: aaedac657f672e64689ea0289caf4598, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 800000
+    isPaintable: 0
+    stockColor: {r: 1, g: 1, b: 1, a: 1}
+  - ModelName: Victoria
+    BrandName: Lord
+    CarClassNames: Cop
+    previewSprite: {fileID: 21300000, guid: c8dd1605f5c2e9e4789062fd95f788d6, type: 3}
+    CarClass: 1
+    uniqueID: Victoriacop
+    vehicle: {fileID: 6393550256858702280, guid: 5d70a728c53b194438eeff8820a5cc2f, type: 3}
+    aiVehicle: {fileID: 5810545430945294239, guid: fc074bcb0d7c88f469104fbde32157a0, type: 3}
+    menuVehicle: {fileID: 1368624845845474220, guid: 42ee42046f9e5d447a7b0b9e520d5f0f, type: 3}
+    topSpeed: 0.702
+    acceleration: 0.471
+    handling: 0.325
+    braking: 0.174
+    bodyMaterials:
+    - {fileID: 2100000, guid: aaedac657f672e64689ea0289caf4598, type: 2}
+    mass: 0
+    power: 0
+    vehicleDescription: 
+    isLocked: 0
+    unlockCost: 100000
+    isPaintable: 0
+    stockColor: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,361 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2390353fefb1304ebe448bf177a06cc, type: 3}
+  m_Name: Sezon5
+  m_EditorClassIdentifier: 
+  careerName: Sezon5
+  stageName: Sezon5
+  championshipData: {fileID: 11400000, guid: 60f35e5b5ad553a4cb5aafd18a342fd7, type: 2}
+  careerRounds:
+  - requireCarClass: 0
+    requiredCarClass: 0
+    trackData: {fileID: 11400000, guid: 9043a0452c55291448d4df160436d611, type: 2}
+    raceType: 0
+    laps: 2
+    opponentCount: 3
+    raceID: Sezon50
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 1
+    enableCatchup: 1
+    catchupStrength: 1
+    minCatchupRange: 50
+    maxCatchupRange: 200
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 7.56
+      minSlipstreamSpeed: 100
+    respawnSettings:
+      enableRespawns: 1
+      autoRespawn: 0
+      meshFlicker: 0
+      ignoreCollisionDuration: 3
+      respawnWait: 5
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 0
+    wrongwayRespawnTime: 5
+    aidifficult: 1
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 80
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 0
+    targetScoreSilver: 0
+    targetScoreBronze: 0
+    raceRewards:
+    - currency: 37000
+      xp: 170
+      speedBoost: 180
+      items: []
+    - currency: 25000
+      xp: 140
+      speedBoost: 150
+      items: []
+    - currency: 18000
+      xp: 110
+      speedBoost: 120
+      items: []
+  - requireCarClass: 0
+    requiredCarClass: 0
+    trackData: {fileID: 11400000, guid: 750de3b5f65ef2d4db4025450732ef7c, type: 2}
+    raceType: 1
+    laps: 3
+    opponentCount: 3
+    raceID: Sezon51
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 1
+    enableCatchup: 1
+    catchupStrength: 1
+    minCatchupRange: 50
+    maxCatchupRange: 200
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 7.56
+      minSlipstreamSpeed: 100
+    respawnSettings:
+      enableRespawns: 1
+      autoRespawn: 1
+      meshFlicker: 1
+      ignoreCollisionDuration: 3
+      respawnWait: 3
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 0
+    wrongwayRespawnTime: 5
+    aidifficult: 1
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 80
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 0
+    targetScoreSilver: 0
+    targetScoreBronze: 0
+    raceRewards:
+    - currency: 40000
+      xp: 170
+      speedBoost: 200
+      items: []
+    - currency: 28000
+      xp: 150
+      speedBoost: 180
+      items: []
+    - currency: 20000
+      xp: 140
+      speedBoost: 150
+      items: []
+  - requireCarClass: 1
+    requiredCarClass: 6
+    trackData: {fileID: 11400000, guid: 6454c4fedcf5a9b4da9c145a0c87c844, type: 2}
+    raceType: 9
+    laps: 3
+    opponentCount: 3
+    raceID: Sezon52
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 0
+    enableCatchup: 1
+    catchupStrength: 1
+    minCatchupRange: 70
+    maxCatchupRange: 250
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 1.1
+      minSlipstreamSpeed: 100
+    respawnSettings:
+      enableRespawns: 1
+      autoRespawn: 1
+      meshFlicker: 1
+      ignoreCollisionDuration: 3
+      respawnWait: 3
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 0
+    wrongwayRespawnTime: 5
+    aidifficult: 1
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 300
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 630000
+    targetScoreSilver: 600000
+    targetScoreBronze: 570000
+    raceRewards:
+    - currency: 42000
+      xp: 180
+      speedBoost: 220
+      items: []
+    - currency: 30000
+      xp: 160
+      speedBoost: 180
+      items: []
+    - currency: 20000
+      xp: 120
+      speedBoost: 160
+      items: []
+  - requireCarClass: 1
+    requiredCarClass: 5
+    trackData: {fileID: 11400000, guid: 347cd787e58d15a41930b2e3cb8ca538, type: 2}
+    raceType: 2
+    laps: 1
+    opponentCount: 3
+    raceID: Sezon53
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 1
+    enableCatchup: 1
+    catchupStrength: 1
+    minCatchupRange: 50
+    maxCatchupRange: 200
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 7.56
+      minSlipstreamSpeed: 100
+    respawnSettings:
+      enableRespawns: 1
+      autoRespawn: 1
+      meshFlicker: 1
+      ignoreCollisionDuration: 3
+      respawnWait: 3
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 0
+    wrongwayRespawnTime: 5
+    aidifficult: 0
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 80
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 0
+    targetScoreSilver: 0
+    targetScoreBronze: 0
+    raceRewards:
+    - currency: 45000
+      xp: 200
+      speedBoost: 240
+      items: []
+    - currency: 30000
+      xp: 170
+      speedBoost: 210
+      items: []
+    - currency: 20000
+      xp: 150
+      speedBoost: 180
+      items: []
+  - requireCarClass: 0
+    requiredCarClass: 0
+    trackData: {fileID: 11400000, guid: 594ebbd20e65db948b4eacdddabceb5e, type: 2}
+    raceType: 8
+    laps: 3
+    opponentCount: 3
+    raceID: Sezon54
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 1
+    enableCatchup: 1
+    catchupStrength: 1
+    minCatchupRange: 50
+    maxCatchupRange: 200
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 7.56
+      minSlipstreamSpeed: 100
+    respawnSettings:
+      enableRespawns: 1
+      autoRespawn: 1
+      meshFlicker: 1
+      ignoreCollisionDuration: 3
+      respawnWait: 3
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 0
+    wrongwayRespawnTime: 5
+    aidifficult: 1
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 80
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 0
+    targetScoreSilver: 0
+    targetScoreBronze: 0
+    raceRewards:
+    - currency: 47000
+      xp: 200
+      speedBoost: 240
+      items: []
+    - currency: 30000
+      xp: 170
+      speedBoost: 210
+      items: []
+    - currency: 20000
+      xp: 150
+      speedBoost: 180
+      items: []
+  - requireCarClass: 0
+    requiredCarClass: 0
+    trackData: {fileID: 11400000, guid: 965b48a1306e7ca4d825b20c775c09bc, type: 2}
+    raceType: 3
+    laps: 1
+    opponentCount: 3
+    raceID: Sezon55
+    nonCollisionRace: 0
+    autoDriveTimeTrial: 0
+    useTimeLimit: 0
+    finishEnduranceImmediately: 1
+    enableCatchup: 1
+    catchupStrength: 1
+    minCatchupRange: 50
+    maxCatchupRange: 200
+    slipstreamSettings:
+      enableSlipstream: 1
+      slipstreamStrength: 7.56
+      minSlipstreamSpeed: 100
+    respawnSettings:
+      enableRespawns: 1
+      autoRespawn: 1
+      meshFlicker: 1
+      ignoreCollisionDuration: 3
+      respawnWait: 3
+    enableOfftrackPenalty: 0
+    minWheelCountForOfftrack: 4
+    forceWrongwayRespawn: 0
+    wrongwayRespawnTime: 5
+    aidifficult: 1
+    aiDetails: {fileID: 11400000, guid: cb49246282d050743b7f1616b5970455, type: 2}
+    easyAiDifficulty: {fileID: 11400000, guid: 3f9ef13f6ffbc9d479fa0ea78fe2017e, type: 2}
+    mediumAiDifficulty: {fileID: 11400000, guid: 56b88a512a4e76d468b127b6ffb77ed9, type: 2}
+    hardAiDifficulty: {fileID: 11400000, guid: ab5d75144daeb3649a3ecd461ad2e8e8, type: 2}
+    eliminationTimeStart: 30
+    checkpointTimeStart: 30
+    enduranceTimeStart: 80
+    driftTimeStart: 120
+    targetTimeGold: 130
+    targetTimeSilver: 115
+    targetTimeBronze: 100
+    targetScoreGold: 0
+    targetScoreSilver: 0
+    targetScoreBronze: 0
+    raceRewards:
+    - currency: 50000
+      xp: 200
+      speedBoost: 240
+      items:
+      - porshe93
+    - currency: 40000
+      xp: 170
+      speedBoost: 210
+      items: []
+    - currency: 30000
+      xp: 150
+      speedBoost: 180
+      items: []

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1467407768068106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4105544446815456}
+  - component: {fileID: 114545257045718080}
+  m_Layer: 12
+  m_Name: Wheel_list
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4105544446815456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467407768068106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -305.20764, y: 0.6081845, z: 120.274}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &114545257045718080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467407768068106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21c9c472ae9948d49b6f5568b726ad6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheels:
+  - wheelName: 
+    WheelPrefab: {fileID: 919132149155446097, guid: 710645fd8d6ce3d4abe4dcf08a40ea38, type: 3}
+    price: 5000
+  - wheelName: 
+    WheelPrefab: {fileID: 919132149155446097, guid: 606396e118b7bd24e9e98b0fd5c14ce8, type: 3}
+    price: 5000
+  - wheelName: 
+    WheelPrefab: {fileID: 919132149155446097, guid: 4e9b12690ce7c73408e2854f35b6e62a, type: 3}
+    price: 5000
+  - wheelName: 
+    WheelPrefab: {fileID: 919132149155446097, guid: f4c5ae5ec3ba0ba4193590b49c8fde56, type: 3}
+    price: 5000
+  - wheelName: 
+    WheelPrefab: {fileID: 919132149155446097, guid: 5bac94cd171707d44beb2eacc70682af, type: 3}
+    price: 5000
+  - wheelName: 
+    WheelPrefab: {fileID: 919132149155446097, guid: 60f924d2f78fbb84da39eac13a20b7f7, type: 3}
+    price: 5000
+  - wheelName: 
+    WheelPrefab: {fileID: 919132149155446097, guid: 0e911e17d8e121f459410618fd464dd1, type: 3}
+    price: 5000
+  - wheelName: 
+    WheelPrefab: {fileID: 919132149155446097, guid: e3e6442c0977a0a4d88237cd27cf3b55, type: 3}
+    price: 5000
+  - wheelName: 
+    WheelPrefab: {fileID: 919132149155446097, guid: f98c6151e2eb11744a4fbd0e9f5a105e, type: 3}
+    price: 5000

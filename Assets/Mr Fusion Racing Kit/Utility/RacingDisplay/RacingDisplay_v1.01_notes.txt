@@ -1,0 +1,51 @@
+---------------------------------------
+---------------------------------------
+Racing Display v1.01 by E-Arts - Notes
+---------------------------------------
+Add-on feature for Unitycar 2.0->
+---------------------------------------
+15.06.2013
+---------------------------------------
+
+This package is add-on feature for Unitycar 2.0->.
+!!! REQUIRES Unitycar 2.x Vehicle Physics Package TO WORK !!!
+
+It is possible to get this package to work with older version of Unitycar but
+it requires few changes to the Display Control script, mainly removing fuel level parts.
+In this case Unity usually tells you if something is missing so it's just
+needed to comment out those lines (//).
+
+
+You should use prefab's to set up your displays.
+Currently theres two displays included (RD-01 and RD-02).
+
+There is a Laptimer script included but it's just an template script, placeholder.
+You should adjust the few lines in Display Control script to use your own laptimer script.
+
+Display Control script is also looking for GameObject tagged with 'FuelTank' to get the fuel level value.
+Also the control script is looking for GameObject tagged with'LevelController' where the Laptimer script is located.
+
+So basically you should do:
+- Add tag's FuelTank and LevelController to you scene.
+- Create empty gameobject and assign it with tag LevelController, add template Laptimer script.
+- Create cube gameobject, place it inside your car, assign with tag FuelTank, add Unitycar's fueltank script.
+
+---------------------------------------
+How to get the display to work with your car:
+
+1. Edit Unitycar's CarController.cs script's 'veloKmh' value. Replace 'float veloKmh' with 'public float veloKmh' 
+2. Add wanted display prefab to your scene.
+3. Rotate and place it inside your cars cockpit
+4. Assign your car to the display control script (Car transform instance)
+
+Display's should be matching 'real' display dimensions but you can scale them freely to match your game scales.
+
+---------------------------------------
+
+Could be that I missed something out but I'm sure Unity tells you if somethings missing or wrong.
+
+If you can't get it working properly let me know so we can fix it.
+
+email: e-arts@jotainkivaa.net
+skype: sami.eronen
+(if you add me to your skype, please message me that you are Racing Display customer!)
